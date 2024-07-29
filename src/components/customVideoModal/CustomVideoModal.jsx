@@ -17,7 +17,7 @@ const CustomVideoModal = ({ isOpen, onClose, video }) => {
       </button>
       <div className="relative bg-transparent p-4 rounded-md max-w-full max-h-full overflow-auto">
         <iframe
-          className="w-[300px] h-[300px] md:w-[600px] md:h-[500px] p-4"
+          className="w-[300px] h-[300px] md:w-[800px] md:h-[600px] p-4"
           src={`${video}`}
           title="YouTube video player"
           frameborder="0"

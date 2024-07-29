@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import bannerVector from "../../assets/imgs/banner-vector.png";
 import CustomVideoModal from "../customVideoModal/CustomVideoModal";
-import bgBanner from "../../assets/imgs/banner-bg-2.jpg";
 
 const HomeSlider = () => {
   const phoneNumber = "+8801795937735";
@@ -94,7 +93,7 @@ const HomeSlider = () => {
                 className="w-14 h-14 flex justify-center items-center bg-white rounded-full pulse-animation"
                 onClick={() =>
                   handleVideoClick(
-                    "https://www.youtube.com/embed/Cn4G2lZ_g2I?si=7yPAFIngFIDsDoie"
+                    "https://www.youtube.com/embed/edzoKyQPG9g?si=bbe8XLws3ARhFt1R"
                   )
                 }
               >
