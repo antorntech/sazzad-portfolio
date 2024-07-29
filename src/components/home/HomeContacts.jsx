@@ -70,36 +70,22 @@ const HomeContacts = () => {
                   </h1>
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-5">
-                  <Link to="https://www.behance.net/helloarif" target="_blank">
-                    <div className="w-full md:w-[200px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
-                      <i className="fa-brands fa-behance text-2xl text-[#4AF3E3]"></i>
-                      <span className="text-2xl">Behance</span>
+                  <Link to="https://www.facebook.com" target="_blank">
+                    <div className="w-full md:w-[120px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
+                      <i className="fa-brands fa-facebook text-xl text-[#4AF3E3]"></i>
+                      <span className="text-sm">Facebook</span>
                     </div>
                   </Link>
-                  <Link to="https://dribbble.com/helloarif" target="_blank">
-                    <div className="w-full md:w-[200px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
-                      <i className="fa-solid fa-basketball text-2xl text-[#ff00dd]"></i>
-                      <span className="text-2xl">Dribble</span>
+                  <Link to="https://www.linkedin.com/in/sazzad" target="_blank">
+                    <div className="w-full md:w-[120px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
+                      <i className="fa-brands fa-linkedin text-xl text-[#4ac9fc]"></i>
+                      <span className="text-sm">Linkedin</span>
                     </div>
                   </Link>
-                </div>
-                <div className="flex flex-col md:flex-row items-center gap-5 mt-4">
-                  <Link
-                    to="https://www.linkedin.com/in/helloarif"
-                    target="_blank"
-                  >
-                    <div className="w-full md:w-[200px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
-                      <i className="fa-brands fa-linkedin text-2xl text-[#4ac9fc]"></i>
-                      <span className="text-2xl">Linkedin</span>
-                    </div>
-                  </Link>
-                  <Link
-                    to="https://www.instagram.com/helloarif200"
-                    target="_blank"
-                  >
-                    <div className="w-full md:w-[200px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
-                      <img src="instagram.png" alt="instagram.png" />
-                      <span className="text-2xl">Instagram</span>
+                  <Link to="https://www.instagram.com/sazzad" target="_blank">
+                    <div className="w-full md:w-[120px] border-[2px] border-[#18377e] rounded-md hover:bg-[#18377e] transition-all duration-300 px-4 py-2 flex items-center justify-center gap-2 text-gray-500 hover:text-white">
+                      <i className="fa-brands fa-instagram text-xl text-[#b22ace]"></i>
+                      <span className="text-sm">Instagram</span>
                     </div>
                   </Link>
                 </div>
