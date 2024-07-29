@@ -5,35 +5,35 @@ const HomeGallery = () => {
   const gallerys = [
     {
       id: 1,
-      thumbnail: "https://picsum.photos/200/300?random=1",
+      thumbnail: "/images/gallery-1.jpg",
     },
     {
       id: 2,
-      thumbnail: "https://picsum.photos/200/300?random=2",
+      thumbnail: "/images/gallery-2.jpg",
     },
     {
       id: 3,
-      thumbnail: "https://picsum.photos/200/300?random=3",
+      thumbnail: "/images/gallery-3.jpg",
     },
     {
       id: 4,
-      thumbnail: "https://picsum.photos/200/300?random=4",
+      thumbnail: "/images/gallery-4.jpg",
     },
     {
       id: 5,
-      thumbnail: "https://picsum.photos/200/300?random=5",
+      thumbnail: "/images/gallery-5.jpg",
     },
     {
       id: 6,
-      thumbnail: "https://picsum.photos/200/300?random=6",
+      thumbnail: "/images/gallery-6.jpg",
     },
     {
       id: 7,
-      thumbnail: "https://picsum.photos/200/300?random=7",
+      thumbnail: "/images/gallery-7.jpg",
     },
     {
       id: 8,
-      thumbnail: "https://picsum.photos/200/300?random=8",
+      thumbnail: "/images/gallery-8.jpg",
     },
   ];
 

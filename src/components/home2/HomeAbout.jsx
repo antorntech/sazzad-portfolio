@@ -23,15 +23,15 @@ const HomeAbout = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-32">
           <div className="relative w-full md:w-1/3 ">
             <img
-              src={aboutImg}
+              src="/images/about-img.jpg"
               alt=""
               className="rounded-md w-full h-full object-contain custom-shadow"
             />
             <div className="border-[10px] border-white rounded-lg absolute bottom-6 -right-20 hidden md:block">
               <img
-                src={aboutImg3}
+                src="/images/about-img-2.jpg"
                 alt=""
-                className="rounded-lg custom-shadow"
+                className="rounded-lg custom-shadow w-[200px] h-[250px]"
               />
             </div>
           </div>

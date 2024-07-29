@@ -50,14 +50,14 @@ const HomeSlider = () => {
               </Link>
               <div className="flex items-center gap-4">
                 <Link
-                  to="https://www.facebook.com/helloarif0?mibextid=ZbWKwL"
+                  to="https://www.facebook.com/"
                   target="_blank"
                   className="group border-[2px] border-white w-10 h-10 md:w-14 md:h-14 flex justify-center items-center hover:bg-white font-semibold transition-all duration-300 rounded-md"
                 >
                   <i className="fa fa-solid fa-facebook text-white text-lg group-hover:text-[#18377e]"></i>
                 </Link>
                 <Link
-                  to="https://www.linkedin.com/in/helloarif"
+                  to="https://www.linkedin.com/in/"
                   target="_blank"
                   className="group border-[2px] border-white w-10 h-10 md:w-14 md:h-14 flex justify-center items-center hover:bg-white font-semibold transition-all duration-300 rounded-md"
                 >
