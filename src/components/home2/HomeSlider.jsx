@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import bannerVector from "../../assets/imgs/banner-vector.png";
 import CustomVideoModal from "../customVideoModal/CustomVideoModal";
+import bgBanner from "../../assets/imgs/banner-bg-2.jpg";
 
 const HomeSlider = () => {
   const phoneNumber = "+8801795937735";
@@ -28,7 +29,9 @@ const HomeSlider = () => {
   return (
     <>
       <section className="h-[90vh] md:h-screen">
-        <div class="px-4 md:px-0 bg-no-repeat bg-cover bg-[url('banner-bg-2.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]">
+        <div
+          className={`px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/banner-bg-2.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]`}
+        >
           <div className="max-w-screen-xl h-full mx-auto flex flex-col justify-center z-30">
             <h6 className="font-semibold text-xl md:text-[2rem] mb-[12px] text-white">
               Business expo 2024
