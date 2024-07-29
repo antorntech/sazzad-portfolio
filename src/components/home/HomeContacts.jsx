@@ -36,7 +36,7 @@ const HomeContacts = () => {
                 <div className="text-black">
                   <p>Phone</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    +880 1996 774 893
+                    +880 1555 555 555
                   </h2>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const HomeContacts = () => {
                 <div className="text-black">
                   <p>Email</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    helloarif200@gmail.com
+                    sazzad@gmail.com
                   </h2>
                 </div>
               </div>
