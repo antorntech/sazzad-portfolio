@@ -98,20 +98,19 @@ const HomeEvents = () => {
             </Link>
             <Link>
               <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
-                <div className="overflow-hidden rounded-md">
+                <div className="w-full md:w-1/2 overflow-hidden rounded-md">
                   <img
                     src={event3}
                     alt=""
                     className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
                   />
                 </div>
-                <div className="my-2">
-                  <div className="flex flex-col md:flex-row md:items-center gap-3 border-b-2 border-[#18377e] py-2">
+                <div className="w-full md:w-2/3 my-2">
+                  <div className="flex flex-col  gap-3 border-b-2 border-[#18377e] py-2">
                     <div>
                       <i class="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
                       <span>24, Jan - 2024</span>
                     </div>
-                    <div className="hidden md:block">|</div>
                     <div>
                       <i class="fa-regular fa-clock me-2 text-[#18377e]"></i>
                       <span>10:00 AM – 2.00 PM</span>
@@ -135,20 +134,19 @@ const HomeEvents = () => {
             </Link>
             <Link>
               <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
-                <div className="overflow-hidden rounded-md">
+                <div className="w-full md:w-1/2 overflow-hidden rounded-md">
                   <img
                     src={event1}
                     alt=""
                     className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
                   />
                 </div>
-                <div className="my-2">
-                  <div className="flex flex-col md:flex-row md:items-center gap-3 border-b-2 border-[#18377e] py-2">
+                <div className="w-full md:w-2/3 my-2">
+                  <div className="flex flex-col  gap-3 border-b-2 border-[#18377e] py-2">
                     <div>
                       <i class="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
                       <span>24, Jan - 2024</span>
                     </div>
-                    <div className="hidden md:block">|</div>
                     <div>
                       <i class="fa-regular fa-clock me-2 text-[#18377e]"></i>
                       <span>10:00 AM – 2.00 PM</span>
