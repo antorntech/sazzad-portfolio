@@ -22,6 +22,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/about"
+                  className="text-[#fff] text-[17px] font-semibold hover:text-[#18377e] transition-all duration-300"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/events"
                   className="text-[#fff] text-[17px] font-semibold hover:text-[#18377e] transition-all duration-300"
                 >
@@ -38,10 +46,10 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="/blogs"
                   className="text-[#fff] text-[17px] font-semibold hover:text-[#18377e] transition-all duration-300"
                 >
-                  About
+                  Blogs
                 </Link>
               </li>
               <li>
