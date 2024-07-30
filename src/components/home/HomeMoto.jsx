@@ -25,10 +25,20 @@ const HomeMoto = () => {
   ];
   return (
     <section
-      className="py-6 md:py-[50px] lg:py-[80px] bg-[#18377e4d]"
+      className="py-6 md:py-[50px] lg:py-[80px] bg-[#14388aa4] relative"
       data-aos="fade-in"
       data-aos-duration="3000"
     >
+      <img
+        src="/images/cta-vector-1.png"
+        alt="cta-vector-1.png"
+        className="absolute top-0 left-0 w-[200px]"
+      />
+      <img
+        src="/images/cta-vector-1.png"
+        alt="cta-vector-1.png"
+        className="absolute bottom-0 right-0 rotate-180 w-[200px]"
+      />
       <div className="max-w-screen-xl mx-auto px-4 lg:px-0">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {achievements.map((achievement, index) => (
@@ -38,7 +48,9 @@ const HomeMoto = () => {
             >
               <img src={achievement.logo} alt="" className="w-[100px]" />
               <div className="my-3 text-center">
-                <h1 className="text-2xl uppercase mt-1">{achievement.title}</h1>
+                <h1 className="text-2xl uppercase mt-1 text-gray-200">
+                  {achievement.title}
+                </h1>
               </div>
             </div>
           ))}

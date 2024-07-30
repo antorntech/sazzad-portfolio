@@ -23,17 +23,27 @@ const HomeAchievement = () => {
   ];
   return (
     <section
-      className="py-6 md:py-[50px] lg:py-[80px] bg-[#18377e4d]"
+      className="py-6 md:py-[50px] lg:py-[80px] bg-[#14388aa4] relative"
       data-aos="fade-in"
       data-aos-duration="3000"
     >
+      <img
+        src="/images/cta-vector-1.png"
+        alt="cta-vector-1.png"
+        className="absolute top-0 left-0 w-[200px]"
+      />
+      <img
+        src="/images/cta-vector-1.png"
+        alt="cta-vector-1.png"
+        className="absolute bottom-0 right-0 rotate-180 w-[200px]"
+      />
       <div className="max-w-screen-xl mx-auto px-4 lg:px-0">
         <header>
           <h1 className="text-[#18377e] text-5xl font-bold uppercase">
             Achievements
           </h1>
           <div className="w-20 h-1 bg-[#18377e] my-1"></div>
-          <p className="text-gray-500">
+          <p className="text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />{" "}
             Quae, tempore doloribus!
           </p>
