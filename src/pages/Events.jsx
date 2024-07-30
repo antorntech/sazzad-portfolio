@@ -105,7 +105,7 @@ const Events = () => {
               <div className="relative w-full md:w-1/3">
                 <input
                   type="text"
-                  placeholder="Search Event"
+                  placeholder="Search Event . . ."
                   className="border border-gray-300 rounded-md px-4 py-2 w-full active:border-[#18377e] focus:outline-[#18377e]"
                   value={searchQuery}
                   onChange={handleSearchChange}
@@ -120,7 +120,7 @@ const Events = () => {
                     gridDisplay ? "/icons/menu-active.png" : "/icons/menu.png"
                   }
                   alt="Grid View"
-                  className="w-7 h-7 cursor-pointer"
+                  className="w-[30px] h-[30px] cursor-pointer"
                   onClick={handleGridDisplay}
                 />
                 <img
@@ -130,7 +130,7 @@ const Events = () => {
                       : "/icons/view-list.png"
                   }
                   alt="List View"
-                  className="w-8 h-8 cursor-pointer"
+                  className="w-[37px] h-[37px] cursor-pointer"
                   onClick={handleListDisplay}
                 />
               </div>
@@ -260,9 +260,10 @@ const Events = () => {
                 </div>
               )
             ) : (
-              <div className="w-full flex justify-center items-center h-[50vh] mt-12">
+              <div className="w-full flex flex-col justify-center items-center gap-5 h-[50vh] mt-12">
+                <div class="custom-loader"></div>
                 <h1 className="text-3xl font-semibold animate-pulse">
-                  No events found
+                  No event found
                 </h1>
               </div>
             )}

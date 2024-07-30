@@ -1,13 +1,5 @@
 import React from "react";
-import HeroSection from "../components/home/HeroSection";
-import HomeTaskSection from "../components/home/HomeTaskSection";
-import HomeQualityService from "../components/home/HomeQualityService";
-import HomeRecentWork from "../components/home/HomeRecentWork";
-import HomeExperience from "../components/home/HomeExperience";
-import HomeSkills from "../components/home/HomeSkills";
-import HomeClientStories from "../components/home/HomeClientStories";
-import HomeContacts from "../components/home/HomeContacts";
-import HomeRecentBlogs02 from "../components/home/HomeRecentBlogs02";
+import HomeContacts from "../components/home2/HomeContacts";
 import HomeEvents from "../components/home2/HomeEvents";
 import HomeSlider from "../components/home2/HomeSlider";
 import HomeAbout from "../components/home2/HomeAbout";
@@ -27,14 +19,6 @@ const Home = () => {
       <HomeGallery />
       <HomeBlogs />
       <HomeContacts />
-      {/* <HomeTaskSection />
-      <HomeQualityService />
-      <HomeRecentWork />
-      <HomeExperience />
-      <HomeSkills />
-      <HomeClientStories />
-      <HomeRecentBlogs02 />
-      <HomeContacts /> */}
     </>
   );
 };

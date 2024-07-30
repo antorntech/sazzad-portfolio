@@ -13,6 +13,7 @@ import Blogs from "../pages/Blogs";
 import AnimatedCursor from "../components/AnimatedCursor/AnimatedCursor";
 import UnderConstruction from "../pages/UnderConstruction";
 import Events from "../pages/Events";
+import News from "../pages/News";
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/news" element={<News />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
