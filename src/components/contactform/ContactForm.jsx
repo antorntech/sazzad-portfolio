@@ -7,6 +7,7 @@ export const ContactForm = () => {
     lastname: "",
     email: "",
     phone: "",
+    subject: "",
     message: "",
   });
 
@@ -41,6 +42,7 @@ export const ContactForm = () => {
       lastname: "",
       email: "",
       phone: "",
+      subject: "",
       message: "",
     });
   };
@@ -49,7 +51,7 @@ export const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="w-full flex flex-col md:flex-row items-center gap-5">
           <input
-            className="w-full p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="firstname"
             value={contactDetails.firstname}
@@ -58,7 +60,7 @@ export const ContactForm = () => {
             placeholder="First Name"
           />
           <input
-            className="w-full p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="lastname"
             value={contactDetails.lastname}
@@ -69,7 +71,7 @@ export const ContactForm = () => {
         </div>
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
           <input
-            className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="email"
             value={contactDetails.email}
@@ -78,7 +80,7 @@ export const ContactForm = () => {
             placeholder="Email Address"
           />
           <input
-            className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="phone"
             value={contactDetails.phone}
@@ -87,58 +89,21 @@ export const ContactForm = () => {
             placeholder="Phone Number"
           />
         </div>
-        {/* <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
-          <select
+        <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
+          <input
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            type="text"
             name="subject"
             value={contactDetails.subject}
             onChange={handleChange}
-            className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-          >
-            <option
-              disabled
-              className="w-full mt-3 p-3 rounded-md bg-[#eef8ff80] border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              Please choose an option
-            </option>
-            <option
-              value={"Logo Design"}
-              className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              Logo Design
-            </option>
-            <option
-              value={"Branding"}
-              className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              Branding
-            </option>
-            <option
-              value={"Print Design"}
-              className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              Print Design
-            </option>
-            <option className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none">
-              Social Media
-            </option>
-            <option
-              value={"Animation"}
-              className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              Animation
-            </option>
-            <option
-              value={"3D Modeling"}
-              className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none"
-            >
-              3D Modeling
-            </option>
-          </select>
-        </div> */}
+            required
+            placeholder="Last Name"
+          />
+        </div>
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
           <textarea
             rows="5"
-            className="w-full mt-3 p-3 rounded-md bg-gray-300 border-[1px] border-gray-700 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="message"
             value={contactDetails.message}

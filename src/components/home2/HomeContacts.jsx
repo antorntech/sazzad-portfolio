@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ContactForm } from "../contactform/ContactForm";
-import { FaPhone } from "react-icons/fa";
 
 const HomeContacts = () => {
   return (
@@ -31,7 +30,6 @@ const HomeContacts = () => {
               <div className="flex items-start gap-5">
                 <div className="w-12 h-12 flex justify-center items-center bg-[#18377e] p-5 rounded-full">
                   <i className="fa-solid fa-phone text-white text-2xl"></i>
-                  <FaPhone />
                 </div>
                 <div className="text-black">
                   <p>Phone</p>
@@ -47,7 +45,7 @@ const HomeContacts = () => {
                 <div className="text-black">
                   <p>Email</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    sazzad@gmail.com
+                    sazzadhossain@gmail.com
                   </h2>
                 </div>
               </div>
