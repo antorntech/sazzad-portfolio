@@ -15,7 +15,7 @@ const CustomModal = ({ isOpen, onClose, image }) => {
       >
         <i className="fa-solid fa-xmark text-[22px] text-white"></i>
       </button>
-      <div className="relative bg-transparent p-4 rounded-md max-w-full max-h-full overflow-auto">
+      <div className="relative bg-transparent p-4 rounded-md max-w-full max-h-full overflow-auto animate__animated animate__zoomIn animate__duration-2s">
         <img
           src={`${image}`}
           alt="Selected"
