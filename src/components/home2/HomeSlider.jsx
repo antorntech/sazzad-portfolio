@@ -5,7 +5,7 @@ import CustomVideoModal from "../customVideoModal/CustomVideoModal";
 
 const HomeSlider = () => {
   const phoneNumber = "+8801795937735";
-  const message = "Hello, I'm interested in your work!";
+  const message = "Hello, I'm interested to talk with you!";
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
