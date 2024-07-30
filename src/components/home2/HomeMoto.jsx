@@ -38,9 +38,7 @@ const HomeMoto = () => {
             >
               <img src={achievement.logo} alt="" className="w-[100px]" />
               <div className="my-3 text-center">
-                <h1 className="text-2xl font-semibold mt-1">
-                  {achievement.title}
-                </h1>
+                <h1 className="text-2xl uppercase mt-1">{achievement.title}</h1>
               </div>
             </div>
           ))}
