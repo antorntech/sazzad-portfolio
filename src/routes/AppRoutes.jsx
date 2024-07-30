@@ -12,6 +12,7 @@ import BlogDetails from "../pages/BlogDetails";
 import Blogs from "../pages/Blogs";
 import AnimatedCursor from "../components/AnimatedCursor/AnimatedCursor";
 import UnderConstruction from "../pages/UnderConstruction";
+import Events from "../pages/Events";
 
 const AppRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
         {/* <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
