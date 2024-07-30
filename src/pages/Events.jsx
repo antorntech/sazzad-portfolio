@@ -101,19 +101,19 @@ const Events = () => {
       <section className="py-6 md:py-[50px] lg:py-[100px]">
         <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
           <div className="w-full flex justify-between items-center">
-            <div>
-              <div className="relative">
+            <div className="w-full">
+              <div className="relative w-full md:w-1/3">
                 <input
                   type="text"
                   placeholder="Search Event"
-                  className="border border-gray-300 rounded-md px-4 py-2 w-full"
+                  className="border border-gray-300 rounded-md px-4 py-2 w-full active:border-[#18377e] focus:outline-[#18377e]"
                   value={searchQuery}
                   onChange={handleSearchChange}
                 />
                 <i className="fa-solid fa-magnifying-glass absolute right-4 top-4 opacity-20"></i>
               </div>
             </div>
-            <div>
+            <div className="hidden md:block">
               <div className="flex items-center gap-4">
                 <img
                   src={
@@ -136,123 +136,137 @@ const Events = () => {
               </div>
             </div>
           </div>
-          {gridDisplay ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-12">
-              {filteredEvents.map((event) => (
-                <Link key={event.id} to={`/event/${event.id}`}>
-                  <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
-                    <div className="w-full md:w-1/2 overflow-hidden rounded-md">
-                      <img
-                        src={event.img}
-                        alt={event.title}
-                        className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
-                      />
-                    </div>
-                    <div className="w-full md:w-2/3 my-2">
-                      <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-2">
-                        <div>
-                          <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
-                          <span>{event.date}</span>
+          <div>
+            {filteredEvents.length > 0 ? (
+              gridDisplay ? (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-8 md:mt-12">
+                  {filteredEvents.map((event) => (
+                    <Link key={event.id} to={`/event/${event.id}`}>
+                      <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
+                        <div className="w-full md:w-1/2 overflow-hidden rounded-md">
+                          <img
+                            src={event.img}
+                            alt={event.title}
+                            className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
+                          />
                         </div>
-                        <div>
-                          <i className="fa-regular fa-clock me-2 text-[#18377e]"></i>
-                          <span>{event.time}</span>
-                        </div>
-                      </div>
-                      <h1 className="text-2xl font-semibold mt-1">
-                        {event.title}
-                      </h1>
-                      <p className="text-sm text-gray-500 mb-2">
-                        {event.description}
-                      </p>
-                      <div>
-                        <i className="fa-solid fa-location-dot me-2 text-[#18377e]"></i>
-                        <span className="text-gray-500">{event.location}</span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          ) : listDisplay ? (
-            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-12 mt-12">
-              {filteredEvents.map((event) => (
-                <Link key={event.id} to={`/event/${event.id}`}>
-                  <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
-                    <div className="w-full md:w-[30%] overflow-hidden rounded-md">
-                      <img
-                        src={event.img}
-                        alt={event.title}
-                        className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
-                      />
-                    </div>
-                    <div className="w-full md:w-[70%] my-2">
-                      <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-4">
-                        <div>
-                          <i className="fa-solid fa-calendar-days me-2 text-[#18377e] text-[22px]"></i>
-                          <span className="text-lg">{event.date}</span>
-                        </div>
-                        <div>
-                          <i className="fa-regular fa-clock me-2 text-[#18377e] text-[22px]"></i>
-                          <span className="text-lg">{event.time}</span>
+                        <div className="w-full md:w-2/3 my-2">
+                          <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-2">
+                            <div>
+                              <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
+                              <span>{event.date}</span>
+                            </div>
+                            <div>
+                              <i className="fa-regular fa-clock me-2 text-[#18377e]"></i>
+                              <span>{event.time}</span>
+                            </div>
+                          </div>
+                          <h1 className="text-2xl font-semibold mt-1">
+                            {event.title.slice(0, 20) + "...."}
+                          </h1>
+                          <p className="text-sm text-gray-500 mb-2">
+                            {event.description}
+                          </p>
+                          <div>
+                            <i className="fa-solid fa-location-dot me-2 text-[#18377e]"></i>
+                            <span className="text-gray-500">
+                              {event.location}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <h1 className="text-4xl font-semibold mt-2">
-                        {event.title}
-                      </h1>
-                      <p className="text-lg text-gray-500 mb-3">
-                        {event.description}
-                      </p>
-                      <div>
-                        <i className="fa-solid fa-location-dot me-2 text-[#18377e] text-[22px]"></i>
-                        <span className="text-gray-500 text-lg">
-                          {event.location}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-12">
-              {filteredEvents.map((event) => (
-                <Link key={event.id} to={`/event/${event.id}`}>
-                  <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
-                    <div className="w-full md:w-1/2 overflow-hidden rounded-md">
-                      <img
-                        src={event.img}
-                        alt={event.title}
-                        className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
-                      />
-                    </div>
-                    <div className="w-full md:w-2/3 my-2">
-                      <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-2">
-                        <div>
-                          <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
-                          <span>{event.date}</span>
+                    </Link>
+                  ))}
+                </div>
+              ) : listDisplay ? (
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-12 mt-8 md:mt-12">
+                  {filteredEvents.map((event) => (
+                    <Link key={event.id} to={`/event/${event.id}`}>
+                      <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
+                        <div className="w-full md:w-[30%] overflow-hidden rounded-md">
+                          <img
+                            src={event.img}
+                            alt={event.title}
+                            className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
+                          />
                         </div>
-                        <div>
-                          <i className="fa-regular fa-clock me-2 text-[#18377e]"></i>
-                          <span>{event.time}</span>
+                        <div className="w-full md:w-[70%] my-2">
+                          <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-4">
+                            <div>
+                              <i className="fa-solid fa-calendar-days me-2 text-[#18377e] text-[22px]"></i>
+                              <span className="text-lg">{event.date}</span>
+                            </div>
+                            <div>
+                              <i className="fa-regular fa-clock me-2 text-[#18377e] text-[22px]"></i>
+                              <span className="text-lg">{event.time}</span>
+                            </div>
+                          </div>
+                          <h1 className="text-4xl font-semibold mt-3">
+                            {event.title}
+                          </h1>
+                          <p className="text-lg text-gray-500 mt-2 mb-3">
+                            {event.description}
+                          </p>
+                          <div>
+                            <i className="fa-solid fa-location-dot me-2 text-[#18377e] text-[22px]"></i>
+                            <span className="text-gray-500 text-lg">
+                              {event.location}
+                            </span>
+                          </div>
                         </div>
                       </div>
-                      <h1 className="text-2xl font-semibold mt-1">
-                        {event.title}
-                      </h1>
-                      <p className="text-sm text-gray-500 mb-2">
-                        {event.description}
-                      </p>
-                      <div>
-                        <i className="fa-solid fa-location-dot me-2 text-[#18377e]"></i>
-                        <span className="text-gray-500">{event.location}</span>
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 mt-8 md:mt-12">
+                  {filteredEvents.map((event) => (
+                    <Link key={event.id} to={`/event/${event.id}`}>
+                      <div className="p-3 shadow-lg rounded-md group flex flex-col md:flex-row md:items-center gap-5">
+                        <div className="w-full md:w-1/2 overflow-hidden rounded-md">
+                          <img
+                            src={event.img}
+                            alt={event.title}
+                            className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
+                          />
+                        </div>
+                        <div className="w-full md:w-2/3 my-2">
+                          <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-2">
+                            <div>
+                              <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
+                              <span>{event.date}</span>
+                            </div>
+                            <div>
+                              <i className="fa-regular fa-clock me-2 text-[#18377e]"></i>
+                              <span>{event.time}</span>
+                            </div>
+                          </div>
+                          <h1 className="text-2xl font-semibold mt-1">
+                            {event.title.slice(0, 20) + "...."}
+                          </h1>
+                          <p className="text-sm text-gray-500 mb-2">
+                            {event.description}
+                          </p>
+                          <div>
+                            <i className="fa-solid fa-location-dot me-2 text-[#18377e]"></i>
+                            <span className="text-gray-500">
+                              {event.location}
+                            </span>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
+                    </Link>
+                  ))}
+                </div>
+              )
+            ) : (
+              <div className="w-full flex justify-center items-center h-[50vh] mt-12">
+                <h1 className="text-3xl font-semibold animate-pulse">
+                  No events found
+                </h1>
+              </div>
+            )}
+          </div>
         </div>
       </section>
     </>
