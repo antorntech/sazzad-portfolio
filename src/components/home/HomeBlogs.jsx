@@ -1,7 +1,7 @@
 import React from "react";
-import event1 from "../../assets/imgs/evenet-sched-1.jpg";
-import event2 from "../../assets/imgs/evenet-sched-2.jpg";
-import event3 from "../../assets/imgs/evenet-sched-3.jpg";
+import blog1 from "../../assets/imgs/evenet-sched-1.jpg";
+import blog2 from "../../assets/imgs/evenet-sched-2.jpg";
+import blog3 from "../../assets/imgs/evenet-sched-3.jpg";
 import { Link } from "react-router-dom";
 
 const HomeBlogs = () => {
@@ -27,7 +27,7 @@ const HomeBlogs = () => {
             <div className="p-3 shadow-lg rounded-md group ">
               <div className="overflow-hidden rounded-md">
                 <img
-                  src={event1}
+                  src={blog1}
                   alt=""
                   className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
                 />
@@ -36,7 +36,7 @@ const HomeBlogs = () => {
                 <h1 className="text-2xl font-semibold mt-1">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </h1>
-                <Link to="#">
+                <Link to={`/blog/1`}>
                   <button className="text-[#18377e] mt-2 hover:text-[#d64734] transition-all duration-500">
                     Read More <i class="fa-solid fa-angle-right"></i>
                   </button>
@@ -46,7 +46,7 @@ const HomeBlogs = () => {
             <div className="p-3 shadow-lg rounded-md group ">
               <div className="overflow-hidden rounded-md">
                 <img
-                  src={event2}
+                  src={blog2}
                   alt=""
                   className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
                 />
@@ -55,7 +55,7 @@ const HomeBlogs = () => {
                 <h1 className="text-2xl font-semibold mt-1">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </h1>
-                <Link to="#">
+                <Link to={`/blog/1`}>
                   <button className="text-[#18377e] mt-2 hover:text-[#d64734] transition-all duration-500">
                     Read More <i class="fa-solid fa-angle-right"></i>
                   </button>
@@ -65,7 +65,7 @@ const HomeBlogs = () => {
             <div className="p-3 shadow-lg rounded-md group ">
               <div className="overflow-hidden rounded-md">
                 <img
-                  src={event3}
+                  src={blog3}
                   alt=""
                   className="w-full h-full group-hover:scale-125 group-hover:rotate-6 transition-all duration-500 rounded-md"
                 />
@@ -74,7 +74,7 @@ const HomeBlogs = () => {
                 <h1 className="text-2xl font-semibold mt-1">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </h1>
-                <Link to="#">
+                <Link to={`/blog/1`}>
                   <button className="text-[#18377e] mt-2 hover:text-[#d64734] transition-all duration-500">
                     Read More <i class="fa-solid fa-angle-right"></i>
                   </button>

@@ -102,7 +102,7 @@ const HomeEvents = () => {
                   <div className="w-full md:w-2/3 my-2">
                     <div className="flex flex-col gap-3 border-b-2 border-[#18377e] py-2">
                       <div>
-                        <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
+                        <i className="fa-solid fa-calendar-days me-2 text-[#98a7c9]"></i>
                         <span>{event.date}</span>
                       </div>
                       <div>
