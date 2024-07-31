@@ -24,7 +24,7 @@ const HomeNews = () => {
             </p>
           </header>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8">
-            <Link>
+            <Link to={`/news/6`}>
               <div className="p-3 shadow-lg rounded-md group ">
                 <div className="overflow-hidden rounded-md">
                   <img
@@ -54,7 +54,7 @@ const HomeNews = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={`/news/5`}>
               <div className="p-3 shadow-lg rounded-md group ">
                 <div className="overflow-hidden rounded-md">
                   <img
@@ -84,7 +84,7 @@ const HomeNews = () => {
                 </div>
               </div>
             </Link>
-            <Link>
+            <Link to={`/news/4`}>
               <div className="p-3 shadow-lg rounded-md group ">
                 <div className="overflow-hidden rounded-md">
                   <img
