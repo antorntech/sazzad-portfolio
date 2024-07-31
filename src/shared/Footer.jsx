@@ -7,10 +7,10 @@ const Footer = () => {
       <section className="py-6 md:py-[50px] lg:py-[80px]  bg-[#181818]">
         <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
           <div className="flex flex-col items-center">
-            {/* <img src="/images/s.png" alt="" className="mb-6 w-72" /> */}
-            <h1 className="text-2xl text-[#fff] uppercase font-bold mb-6">
+            <img src="/images/sazzad-logo.png" alt="" className="mb-6 w-72" />
+            {/* <h1 className="text-2xl text-[#fff] uppercase font-bold mb-6">
               SA<span className="text-[#d64734]">ZZ</span>AD
-            </h1>
+            </h1> */}
             <ul className="flex flex-wrap justify-center items-center gap-3 md:gap-12">
               <li>
                 <Link

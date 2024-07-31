@@ -77,10 +77,10 @@ const Header = () => {
         <div className="w-full max-w-screen-xl mx-auto flex justify-between items-center gap-3">
           <div>
             <Link to="/">
-              {/* <img src="/images/s.png" alt="logo" width={300} /> */}
-              <h1 className="text-2xl uppercase font-bold text-white">
+              <img src="/images/sazzad-logo.png" alt="logo" />
+              {/* <h1 className="text-2xl uppercase font-bold text-white">
                 SA<span className="text-[#d64734]">ZZ</span>AD
-              </h1>
+              </h1> */}
             </Link>
           </div>
           <div className="flex items-center gap-8">
