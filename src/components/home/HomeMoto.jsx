@@ -25,7 +25,7 @@ const HomeMoto = () => {
   ];
   return (
     <section
-      className="py-6 md:py-[50px] lg:py-[80px] bg-[#14388aa4] relative"
+      className="py-6 md:py-[50px] lg:py-[80px] bg-[#14388aa4] relative overflow-hidden"
       data-aos="fade-in"
       data-aos-duration="3000"
     >

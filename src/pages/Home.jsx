@@ -7,7 +7,7 @@ import HomeNews from "../components/home/HomeNews";
 import HomeTask from "../components/home/HomeTask";
 import HomeGallery from "../components/home/HomeGallery";
 import HomeBlogs from "../components/home/HomeBlogs";
-import HomeAchievement from "../components/home/HomeAchievement";
+import HomeAssociation from "../components/home/HomeAssociation";
 import HomeMoto from "../components/home/HomeMoto";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
       <HomeNews />
       <HomeGallery />
       <HomeBlogs />
-      <HomeAchievement />
+      <HomeAssociation />
       <HomeContacts />
     </>
   );

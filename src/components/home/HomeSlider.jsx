@@ -32,13 +32,16 @@ const HomeSlider = () => {
           className={`px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/banner-bg-2.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]`}
         >
           <div className="max-w-screen-xl h-full mx-auto flex flex-col justify-center z-30">
-            <h6 className="font-semibold text-xl md:text-[2rem] mb-[12px] text-white">
-              Business expo 2024
+            <h6 className="font-semibold text-xl md:text-[25px] mb-[12px] text-white">
+              The Combination of
             </h6>
-            <h1 className="text-white text-[clamp(42px,6.25vw,12rem)] font-semibold leading-[1.1] mb-[36px] md:mb-[36px]">
-              Big Conference <br />
-              <span className="font-normal tracking-tighter"> & Workshop</span>
+            <h1 className="text-white text-[clamp(42px,4.25vw,5rem)] font-semibold leading-[1.1]">
+              Education and Technology <br />
             </h1>
+            <h6 className="font-semibold leading-[55px] text-xl md:text-[45px] text-white mb-[36px]">
+              is the key to unlocking the potential of <br /> the future
+              generation.
+            </h6>
             <div className="flex flex-col lg:flex-row items-center gap-4 md:gap-6">
               <Link
                 to="/contact"
