@@ -114,14 +114,14 @@ const Header = () => {
         <div className="py-2 flex items-center justify-between shadow-sm">
           <div>
             <Link to="/">
-              {/* <img src="logo-white.png" alt="logo" width={200} /> */}
-              <h1
+              <img src="/images/sazzad-logo.png" alt="logo" />
+              {/* <h1
                 className={`text-2xl uppercase font-bold text-white ${
                   scrolled ? "text-white" : ""
                 }`}
               >
                 SA<span className="text-[#d64734]">ZZ</span>AD
-              </h1>
+              </h1> */}
             </Link>
           </div>
           <div>

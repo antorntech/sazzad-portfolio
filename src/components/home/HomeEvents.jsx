@@ -79,10 +79,18 @@ const HomeEvents = () => {
       >
         <div className="max-w-screen-xl mx-auto px-4 lg:px-0">
           <header>
-            <h1 className="text-[#18377e] text-5xl font-bold uppercase">
+            <h1
+              className="text-[#18377e] text-5xl font-bold uppercase"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               Events
             </h1>
-            <div className="w-20 h-1 bg-[#18377e] my-1"></div>
+            <div
+              className="w-20 h-1 bg-[#18377e] my-1"
+              data-aos="fade-right"
+              data-aos-duration="2800"
+            ></div>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />{" "}
               Quae, tempore doloribus!
