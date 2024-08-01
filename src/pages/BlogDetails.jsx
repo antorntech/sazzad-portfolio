@@ -87,11 +87,11 @@ const BlogDetails = () => {
               <div className="flex items-center gap-5 py-2">
                 <div>
                   <i className="fa-solid fa-user me-2 text-[#18377e]"></i>
-                  <span>{news.author}</span>
+                  <span>{blog.author}</span>
                 </div>
                 <div>
                   <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
-                  <span>{news.date}</span>
+                  <span>{blog.date}</span>
                 </div>
               </div>
               <p className="text-sm md:text-base text-gray-500 mt-3 text-justify">

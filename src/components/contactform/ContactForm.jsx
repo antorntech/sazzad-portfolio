@@ -97,7 +97,7 @@ export const ContactForm = () => {
             value={contactDetails.subject}
             onChange={handleChange}
             required
-            placeholder="Last Name"
+            placeholder="subject"
           />
         </div>
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
