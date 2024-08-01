@@ -149,8 +149,8 @@ const Header = () => {
           </div>
         </div>
         <div
-          className={`z-50 absolute opacity-0 left-0 top-40 w-full flex flex-col gap-3 bg-[#18377e] p-5 transition-all duration-500 ${
-            menuOpen ? "top-[60px] opacity-100" : "hidden"
+          className={`z-50 absolute opacity-100 right-[-100%] top-[65px] w-full flex flex-col gap-3 bg-[#18377e] p-5 transition-all duration-500 ${
+            menuOpen ? "top-[60px] right-[0] opacity-100" : ""
           }`}
         >
           {myMenu.map((item) => (
@@ -158,7 +158,7 @@ const Header = () => {
               key={item.path}
               onClick={() => setMenuOpen(!menuOpen)}
               to={item.path}
-              className="text-[#929ba2] text-[18px] font-semibold hover:text-green-600 transition duration-300"
+              className="text-white text-[18px] font-semibold hover:text-[#FF5757] transition duration-300"
             >
               {item.label}
             </Link>

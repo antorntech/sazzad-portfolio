@@ -27,25 +27,25 @@ const HomeSlider = () => {
   };
   return (
     <>
-      <section className="h-[90vh] md:h-screen">
+      <section className="h-screen">
         <div
           className={`px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/banner-bg-2.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]`}
         >
           <div className="max-w-screen-xl h-full mx-auto flex flex-col justify-center z-30">
-            <h6 className="font-semibold text-xl md:text-[25px] mb-[12px] text-white">
+            <h6 className="font-semibold text-xl md:text-[25px] mb-1 text-white animate__animated animate__delay-1s animate__fadeIn">
               The Combination of
             </h6>
-            <h1 className="text-white text-[clamp(42px,4.25vw,5rem)] font-semibold leading-[1.1]">
+            <h1 className="text-white text-[clamp(42px,4.25vw,5rem)] font-semibold leading-[1.1] animate__animated animate__duration-1s animate__fadeInLeftBig">
               Education and Technology <br />
             </h1>
-            <h6 className="font-semibold leading-[55px] text-xl md:text-[45px] text-white mb-[36px]">
+            <h6 className="font-semibold mt-2 md:mt-0 md:leading-[55px] text-xl md:text-[45px] text-white mb-[36px] animate__animated animate__delay-1s animate__fadeIn">
               is the key to unlocking the potential of <br /> the future
               generation.
             </h6>
-            <div className="flex flex-col lg:flex-row items-center gap-4 md:gap-6">
+            <div className="flex flex-col lg:flex-row items-center gap-4 md:gap-6 animate__animated animate__fadeIn animate__delay-1s">
               <Link
                 to="/contact"
-                className="border-[2px] border-white px-8 py-2 md:py-4 hover:bg-white font-semibold rounded-md text-white hover:text-[#18377e] w-full flex justify-center items-center md:w-[250px] gap-2 transition-all duration-300"
+                className="border-[2px] border-white px-8 py-2 md:py-4 hover:bg-white font-semibold rounded-md text-white hover:text-[#18377e] w-full flex justify-center items-center md:w-[250px] gap-2 transition-all duration-300 "
               >
                 <span>Contact With Me</span>
                 <i className="fa-solid fa-arrow-right"></i>
@@ -90,7 +90,7 @@ const HomeSlider = () => {
               className="size-8"
             />
           </div>
-          <div className="absolute bottom-[10%] md:top-[50%] md:right-[15%] z-20">
+          <div className="absolute bottom-[6%] right-[35%] md:top-[65%] md:right-[15%] z-20">
             <div className="cursor-pointer border-[1px] border-[#ffffff4b] w-24 h-24 rounded-full flex justify-center items-center">
               <div
                 className="w-14 h-14 flex justify-center items-center bg-white rounded-full pulse-animation"
