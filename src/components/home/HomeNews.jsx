@@ -17,14 +17,14 @@ const HomeNews = () => {
             <h1
               className="text-[#18377e] text-5xl font-bold uppercase"
               data-aos="fade-right"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               News
             </h1>
             <div
               className="w-20 h-1 bg-[#18377e] my-1"
               data-aos="fade-right"
-              data-aos-duration="2800"
+              data-aos-duration="1500"
             ></div>
             <p className="text-gray-500">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />{" "}

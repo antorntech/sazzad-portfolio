@@ -12,8 +12,8 @@ const AnimatedCursor = () => {
   });
   return (
     <>
-      <div className="cursor" />
-      <div className="cursor2" />
+      <div className="cursor hidden md:block" />
+      <div className="cursor2 hidden md:block" />
     </>
   );
 };

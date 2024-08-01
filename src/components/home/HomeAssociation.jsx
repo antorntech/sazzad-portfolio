@@ -46,14 +46,14 @@ const HomeAssociation = () => {
           <h1
             className="text-[#18377e] text-5xl font-bold uppercase"
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             Association
           </h1>
           <div
             className="w-20 h-1 bg-[#18377e] my-1"
             data-aos="fade-right"
-            data-aos-duration="2800"
+            data-aos-duration="1500"
           ></div>
           <p className="text-gray-300">
             Creating the beautiful tapestry of human connection.
