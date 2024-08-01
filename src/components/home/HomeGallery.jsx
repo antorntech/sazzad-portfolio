@@ -27,14 +27,6 @@ const HomeGallery = () => {
       id: 6,
       thumbnail: "/images/gallery-6.jpg",
     },
-    {
-      id: 7,
-      thumbnail: "/images/gallery-7.jpg",
-    },
-    {
-      id: 8,
-      thumbnail: "/images/gallery-8.jpg",
-    },
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -59,7 +51,7 @@ const HomeGallery = () => {
       >
         <div class="py-5 px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/features-bg.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]">
           <div className="max-w-screen-xl h-full mx-auto flex flex-row md:flex-col justify-center gap-8 ">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 md:grid-cols-3">
               {gallerys.map((gallery) => (
                 <div
                   key={gallery.id}
