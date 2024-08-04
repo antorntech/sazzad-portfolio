@@ -68,7 +68,7 @@ const Header = () => {
       {/* desktop menu */}
 
       <div
-        className={`hidden w-full px-5 py-8 md:flex items-center gap-3 fixed left-0 right-0 z-50 ${
+        className={`hidden w-full px-5 py-5 md:flex items-center gap-3 fixed left-0 right-0 z-50 ${
           scrolled
             ? "header-shadow z-40 bg-[#18377e] top-0 transition-bg duration-300 py-2 shadow-md"
             : ""
