@@ -44,24 +44,13 @@ const HomeAbout = () => {
               Know More About Sazzad
             </h1>
             <p className="text-gray-500 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              cumque adipisci vitae unde obcaecati illum quibusdam
-              necessitatibus autem neque nihil quas tenetur, ab repellendus
-              eaque nostrum, fuga exercitationem, libero natus.
+              With a wealth of experience and expertise, Dr. Hossain has been
+              actively involved in shaping the higher education landscape in
+              Bangladesh. His commitment to academic excellence, coupled with a
+              passion for research and development, has garnered him respect and
+              admiration from colleagues and students alike.
             </p>
-            <hr className="bg-[#18377e] my-6" />
-            <div className="flex flex-col md:flex-row md:items-center gap-3">
-              <div className="md:w-1/5 bg-gray-300 flex items-center justify-center">
-                <img src={featureIcon1} alt="" className="p-3 size-[100px]" />
-              </div>
-              <div className="w-full">
-                <h3 className="text-xl mb-2">Whence at the Conference</h3>
-                <p className="text-gray-500">
-                  Embarrassing hidden in the middle All the Lorem Ipsum
-                  generators on the Internet repeat predefined chunks
-                </p>
-              </div>
-            </div>
+
             <div className="mt-8">
               <Link
                 to="/contact"

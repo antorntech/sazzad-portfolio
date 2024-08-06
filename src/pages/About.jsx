@@ -10,82 +10,81 @@ const About = () => {
   //     .then((data) => setAbout(data));
   // }, []);
 
+  const data = {
+    name: "Professor Dr. Sazzad Hossain",
+    designation:
+      "Honorable Member of University Grand Commission of Bangladesh",
+    email: "sazzadhossain@example.com",
+    phone: "0123456789",
+    address: "Dhaka, Bangladesh",
+    image: "/images/about-banner.jpg",
+    description:
+      "With a wealth of experience and expertise, Dr. Hossain has been actively involved in shaping the higher education landscape in Bangladesh. His commitment to academic excellence, coupled with a passion for research and development, has garnered him respect and admiration from colleagues and students alike.",
+  };
+
   return (
     <>
       <PageHeader title="About" />
       <section className="py-6 md:py-[50px] lg:py-[100px]">
         <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
-          <div className="w-full grid grid-cols-1 md:grid-cols-5 custom-shadow rounded-md bg-[#FBFBFB]">
+          <header className="text-center">
+            <h1 className="text-2xl md:text-5xl text-black font-bold">
+              Profile
+            </h1>
+            <p className="text-gray-500 text-lg">
+              Everyone findout the details from here
+            </p>
+          </header>
+          <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-12 mt-3 md:my-12 ">
             <div className="w-full md:col-span-2">
-              <img
-                src="/images/about-banner.jpg"
-                alt=""
-                className="w-full h-full object-fit rounded-md"
-              />
-            </div>
-            <div className="w-full md:col-span-3 p-3 md:p-10">
               <h1 className="text-xl md:text-3xl text-black font-bold">
-                Professor Dr. Sazzad Hossain
+                About Me
               </h1>
-              <p className="text-[#18377e] pb-3">
-                Honorable Member of University Grand Commission of Bangladesh
+              <p className="text-gray-500 text-md text-justify mt-3">
+                {data.description}
               </p>
-              <div>
-                <h3 className="text-lg text-gray-600 font-bold">
-                  {" "}
-                  About Professor Dr. Sazzad Hossain:
-                </h3>
-                <p className="text-gray-500">
-                  With a wealth of experience and expertise, Dr. Hossain has
-                  been actively involved in shaping the higher education
-                  landscape in Bangladesh. His commitment to academic
-                  excellence, coupled with a passion for research and
-                  development, has garnered him respect and admiration from
-                  colleagues and students alike.
-                </p>
+              <h1 className="text-xl md:text-3xl text-black font-bold mt-5">
+                Details
+              </h1>
+              <div className="flex flex-col md:flex-row md:gap-6">
+                <div>
+                  <div className="mt-3">
+                    <strong>Name</strong>
+                    <p className="text-gray-500">{data.name}</p>
+                  </div>
+                  <div className="mt-3">
+                    <strong>Email</strong>
+                    <p className="text-gray-500">{data.email}</p>
+                  </div>
+                </div>
+                <div>
+                  <div className="mt-3">
+                    <strong>Phone</strong>
+                    <p className="text-gray-500">{data.phone}</p>
+                  </div>
+                  <div className="mt-3">
+                    <strong>Address</strong>
+                    <p className="text-gray-500">{data.address}</p>
+                  </div>
+                </div>
               </div>
-              <hr className="my-3" />
-              <div>
-                <h3 className="text-lg text-gray-600 font-bold">
-                  {" "}
-                  Role at UGC and ERDF:
-                </h3>
-                <p className="text-gray-500">
-                  As a Member of the UGC, Dr. Hossain plays a pivotal role in
-                  the formulation and implementation of policies that drive the
-                  quality and accessibility of higher education. Simultaneously,
-                  his leadership at the ERDF reflects his dedication to
-                  fostering research initiatives and educational development in
-                  Bangladesh.
-                </p>
+              <div className="mt-5">
+                <Link
+                  to="/contact"
+                  className="border-[2px] border-[#18377e] px-8 py-2 md:py-4 hover:bg-[#18377e] font-semibold rounded-md text-[#18377e] hover:text-white w-full flex justify-center items-center md:w-[250px] gap-2 transition-all duration-300"
+                >
+                  <span>Contact With Me</span>
+                  <i className="fa-solid fa-arrow-right"></i>
+                </Link>
               </div>
-              <hr className="my-3" />
-              <div>
-                <h3 className="text-lg text-gray-600 font-bold">
-                  {" "}
-                  Insights and Perspectives:
-                </h3>
-                <p className="text-gray-500">
-                  Join us as Professor Dr. Sazzad Hossain shares his insights on
-                  the current state of education, the challenges faced, and the
-                  strategies for future growth. Discover the vision that drives
-                  his leadership and the initiatives he champions for the
-                  betterment of education in Bangladesh.
-                </p>
-              </div>
-              <hr className="my-3" />
-              <div>
-                <h3 className="text-lg text-gray-600 font-bold">
-                  {" "}
-                  Education Advocacy:
-                </h3>
-                <p className="text-gray-500">
-                  Dr. Hossain's commitment to education advocacy extends beyond
-                  his official roles. Learn about his efforts to promote
-                  inclusive and innovative educational practices that empower
-                  students and contribute to the overall development of the
-                  nation.
-                </p>
+            </div>
+            <div className="w-full md:col-span-2">
+              <div className="w-full h-full bg-[#18377e] md:mt-12 relative">
+                <img
+                  src={data.image}
+                  alt=""
+                  className="w-full h-full custom-shadow object-cover absolute bottom-[-5%] right-[-4%]"
+                />
               </div>
             </div>
           </div>

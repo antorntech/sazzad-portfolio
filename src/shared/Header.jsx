@@ -149,7 +149,7 @@ const Header = () => {
           </div>
         </div>
         <div
-          className={`z-50 absolute opacity-100 right-[-100%] top-[65px] w-full flex flex-col gap-3 bg-[#18377e] p-5 transition-all duration-500 ${
+          className={`z-50 absolute opacity-100 right-[-100%] top-[80px] w-full flex flex-col gap-3 bg-[#000B6C] p-5 transition-all duration-500 ${
             menuOpen ? "top-[60px] right-[0] opacity-100" : ""
           }`}
         >
