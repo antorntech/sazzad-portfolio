@@ -53,10 +53,10 @@ const HomeAbout = () => {
 
             <div className="mt-8">
               <Link
-                to="/contact"
+                to="/about"
                 className="border-[2px] border-[#18377e] px-8 py-2 md:py-4 hover:bg-[#18377e] font-semibold rounded-md text-[#18377e] hover:text-white w-full flex justify-center items-center md:w-[250px] gap-2 transition-all duration-300"
               >
-                <span>Contact With Me</span>
+                <span>Read More</span>
                 <i className="fa-solid fa-arrow-right"></i>
               </Link>
             </div>
