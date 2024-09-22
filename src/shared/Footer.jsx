@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
             </ul>
             <p className="text-gray-500 mt-8">
-              © 2024 All Rights Reserved by AM ANTOR
+              © 2024 All Rights Reserved by PEOPLENTECH
             </p>
           </div>
         </div>
