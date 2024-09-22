@@ -8,6 +8,7 @@ import blog4 from "../assets/imgs/evenet-sched-4.jpg";
 
 const BlogDetails = () => {
   const location = useLocation();
+  const { slug } = useParams();
 
   // Access the id from location state
   const { id } = location.state || {};
@@ -69,31 +70,31 @@ const BlogDetails = () => {
   const recentBlogs = [...blogs].reverse().slice(0, 3);
   return (
     <>
-      <PageHeader title={`Blog Details`} />
+      <PageHeader title={slug} />
       <section className="py-6 md:py-[50px] lg:py-[100px]">
         <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="col-span-2 w-full">
               <img
-                src={`${singleBlog?.img}`}
+                src={`${blog?.img}`}
                 alt=""
                 className="w-full h-[400px] object-cover rounded-md"
               />
               <h1 className="text-2xl md:text-4xl font-bold mt-8">
-                {singleBlog?.title}
+                {blog?.title}
               </h1>
               <div className="flex items-center gap-5 py-2">
                 <div>
                   <i className="fa-solid fa-user me-2 text-[#18377e]"></i>
-                  <span>{singleBlog.author}</span>
+                  <span>{blog.author}</span>
                 </div>
                 <div>
                   <i className="fa-solid fa-calendar-days me-2 text-[#18377e]"></i>
-                  <span>{singleBlog.date}</span>
+                  <span>{blog.date}</span>
                 </div>
               </div>
               <p className="text-sm md:text-base text-gray-500 mt-3 text-justify">
-                {singleBlog?.description}
+                {blog?.description}
               </p>
             </div>
             <div className="w-full">
@@ -102,7 +103,7 @@ const BlogDetails = () => {
               <div className="grid grid-cols-1 gap-8 mt-5">
                 {recentBlogs.map((blog, index) => (
                   <Link
-                    key={blog._id}
+                    key={index}
                     to={{
                       pathname: `/blog/${blog.title
                         .replace(/\s+/g, "-")

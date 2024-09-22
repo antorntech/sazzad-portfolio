@@ -8,6 +8,7 @@ import news4 from "../assets/imgs/evenet-sched-4.jpg";
 
 const NewsDetails = () => {
   const location = useLocation();
+  const { slug } = useParams();
 
   // Access the id from location state
   const { id } = location.state || {};
@@ -49,7 +50,7 @@ const NewsDetails = () => {
 
   return (
     <>
-      <PageHeader title={`Event Details`} />
+      <PageHeader title={slug} />
       <section className="py-6 md:py-[50px] lg:py-[100px]">
         <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">

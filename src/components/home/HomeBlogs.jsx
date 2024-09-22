@@ -83,7 +83,7 @@ const HomeBlogs = () => {
                     }}
                   >
                     <button className="text-[#18377e] mt-2 hover:text-[#d64734] transition-all duration-500">
-                      Read More <i class="fa-solid fa-angle-right"></i>
+                      Read More <i className="fa-solid fa-angle-right"></i>
                     </button>
                   </Link>
                 </div>

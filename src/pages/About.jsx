@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PageHeader from "../components/pageheader/PageHeader";
 import { Link } from "react-router-dom";
+import CustomModal from "../components/custommodal/CustomModal";
 
 const About = () => {
   // const [about, setAbout] = useState([]);
@@ -9,6 +10,46 @@ const About = () => {
   //     .then((res) => res.json())
   //     .then((data) => setAbout(data));
   // }, []);
+
+  const gallerys = [
+    {
+      id: 1,
+      thumbnail: "/certification/certification1.jpeg",
+    },
+    {
+      id: 2,
+      thumbnail: "/certification/certification2.jpeg",
+    },
+    {
+      id: 3,
+      thumbnail: "/certification/certification3.jpeg",
+    },
+    {
+      id: 4,
+      thumbnail: "/certification/certification4.jpeg",
+    },
+    {
+      id: 5,
+      thumbnail: "/certification/certification5.jpeg",
+    },
+    {
+      id: 6,
+      thumbnail: "/certification/certification6.jpeg",
+    },
+  ];
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+  };
 
   const data = {
     name: "Professor Dr. Sazzad Hossain",
@@ -90,6 +131,81 @@ const About = () => {
           </div>
         </div>
       </section>
+      <section className="pb-6 md:pb-[50px] lg:pb-[100px]">
+        <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
+          <header className="text-center">
+            <h1 className="text-2xl md:text-5xl text-black font-bold">
+              Education
+            </h1>
+            <p className="text-gray-500 text-lg">
+              All the certifications are here
+            </p>
+          </header>
+          <div className="mt-5 md:mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              <div className="flex items-start shadow-lg p-5">
+                <span className="text-lg md:text-xl font-semibold">
+                  Ph.D. in Electrical and Computer Engineering, Portland State
+                  University, Oregon, USA Dissertation: Classical and Quantum
+                  Search Algorithms for Quantum Circuits and Optimization of
+                  Quantum Oracles
+                </span>
+              </div>
+              <div className="flex items-start shadow-lg p-5">
+                <span className="text-lg md:text-xl font-semibold">
+                  Advisor: Professor Dr. Marek A Perkowski + M.Sc. (Engg.) in
+                  Electrical and Computer Engineering, Portland State
+                  University, Oregon, USA. Advisor: Professor Dr. Marek A
+                  Perkowski
+                </span>
+              </div>
+              <div className="flex items-start shadow-lg p-5">
+                <span className="text-lg md:text-xl font-semibold">
+                  B.Sc. (Engg.). in Electrical System Network Engineering Moscow
+                  Technical University, Moscow, Russia{" "}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pb-6 md:pb-[50px] lg:pb-[100px]">
+        <div className="w-full h-full max-w-screen-xl mx-auto px-4 py-4">
+          <header className="text-center">
+            <h1 className="text-2xl md:text-5xl text-black font-bold">
+              Certification
+            </h1>
+            <p className="text-gray-500 text-lg">
+              All the certifications are here
+            </p>
+          </header>
+          <div className="grid grid-cols-2 md:grid-cols-3 mt-5 md:mt-10">
+            {gallerys.map((gallery) => (
+              <div
+                key={gallery.id}
+                className="w-full h-full md:h-[300px] overflow-hidden relative group"
+              >
+                <img
+                  src={gallery.thumbnail}
+                  alt=""
+                  className="w-full h-full object-fit  group-hover:scale-125 transition-all duration-500"
+                />
+                <div className="absolute top-0 left-0 w-full h-full md:h-[300px] bg-black opacity-0 group-hover:opacity-75 transition-all duration-500">
+                  <i
+                    className="fa-solid fa-circle-plus text-5xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+                    onClick={() => handleImageClick(gallery.thumbnail)}
+                  ></i>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <CustomModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        image={selectedImage}
+      />
     </>
   );
 };

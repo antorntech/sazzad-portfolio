@@ -11,7 +11,7 @@ const HomeTask = () => {
       data-aos="fade-in"
       data-aos-duration="3000"
     >
-      <div class="px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/stats-bg.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]">
+      <div className="px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/stats-bg.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]">
         <div className="absolute top-10 md:top-[20%] md:left-[5%]">
           <img src={statsVector1} alt="" className="animate-pulse" />
         </div>
