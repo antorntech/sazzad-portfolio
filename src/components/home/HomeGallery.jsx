@@ -9,7 +9,7 @@ const HomeGallery = () => {
     },
     {
       id: 2,
-      thumbnail: "/images/gallery-2.jpg",
+      thumbnail: "/images/blog-6.jpg",
     },
     {
       id: 3,

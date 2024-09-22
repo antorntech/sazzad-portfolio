@@ -16,31 +16,44 @@ const NewsDetails = () => {
   const news = [
     {
       id: 1,
-      title: "সূর্যসন্তানদের ত্যাগে বাংলাদেশের সৌধ গড়ার দিন",
-      date: "24, Jan - 2024",
+      title: "Prof Sazzad reappointed as UGC member",
+      date: "05, Jun - 2023",
       author: "Admin",
       description:
-        "আমরা প্রতিবছর ১৪ ডিসেম্বর শহিদ বুদ্ধিজীবী দিবস শ্রদ্ধার সঙ্গে পালন করি। ১৯৭১ সালের মহান মুক্তিযুদ্ধে পাকিস্তানি হানাদার বাহিনী যে নির্মম হত্যাকাণ্ড চালিয়েছিল তার উল্লেখযোগ্য একটি উদাহরণ হলো বুদ্ধিজীবীদের হত্যাকাণ্ড। ১৯৭১ সালের ১৪ ডিসেম্বর পরিকল্পিত হত্যাকাণ্ড চালানোর মধ্য দিয়ে জাতির শ্রেষ্ঠ সন্তানদের হত্যা করে পাকিস্তানি হায়েনারা। দীর্ঘ নয় মাস রক্তক্ষয়ী যুদ্ধের মাধ্যমে বাংলাদেশ স্বাধীনতা অর্জন করে। মুক্তিযুদ্ধের শুরু থেকেই পাকিস্তানি বাহিনীদের প্রধান শিকার ছিলেন এদেশের প্রতিথযশা শিক্ষাবিদ, চিকিৎসক, সাহিত্যিক, সাংবাদিকসহ প্রথম শ্রেণির মানুষগুলো। আর এই হত্যাকাণ্ড প্রকটরূপ ধারণ করে ১০-১৪ ডিসেম্বর এবং ১৪ ডিসেম্বরের সেই ভয়াবহতা সত্যিই মর্মান্তিক ছিল। শহিদ বুদ্ধিজীবীদের অভাব জাতি এখনও অনুভব করে চলেছে। তাদের অবদান ভুলবার নয়। বাঙালি জাতিকে মেধাশূন্য করতে পাকিস্তানি হানাদার বাহিনী ও দেশীয় আলবদর, রাজাকাররা মিলে পরিকল্পিত এ হত্যাকাণ্ড সংঘটিত করে। মুক্তিযুদ্ধে বুদ্ধিজীবীদের অবদান ছিল অসামান্য। তাদের অনুপ্রেরণা এবং উত্সাহে মহান মুক্তিযুদ্ধ প্রথম থেকে শেষ পর্যন্ত পরিচালিত হয়েছে। মুক্তিযুদ্ধের সময় দেশের অসংখ্য লেখক, সাংবাদিক, শিল্পী, চিকিত্সক, শিক্ষক তাদের অক্লান্ত পরিশ্রমের মাধ্যমে মুক্তিযুদ্ধকে অগ্রগামী করেছেন। মুক্তিযুদ্ধের মূল নিয়ামক শক্তি ছিল জনগণ, তথাপি মানুষকে যুদ্ধে উদ্বুদ্ধ করার ক্ষেত্রে বুদ্ধিজীবীদের অবদান ছিল খুবই প্রশংসনীয়। পত্রপত্রিকায় লেখালেখি, স্বাধীন বাংলা বেতার কেন্দ্রে খবর পাঠ, দেশাত্মবোধক গান, মুক্তিযুদ্ধভিত্তিক গান, কবিতা পাঠ, নাটক, কথিত ও অত্যন্ত জনপ্রিয় অনুষ্ঠানগুলো বুদ্ধিজীবীরাই পরিচালনা করেন। বুদ্ধিজীবীরা রণক্ষেত্রে মুক্তিযোদ্ধাদের মানসিক, নৈতিক মনোবল ধরে রাখতে সহায়তা, সাহস জোগানো এবং জনগণকে শত্রুর বিরুদ্ধে দুর্দমনীয় করতে গুরুত্বপূর্ণ ভূমিকা পালন করেছেন। এক কথায় যদি বলা হয় মুক্তিযুদ্ধের দিকনির্দেশক কারা ছিলেন? বঙ্গবন্ধুর নেতৃত্বে বুদ্ধিজীবীরা ছিলেন অগ্রভাগে, সেটাই হবে উত্তম উত্তর। অন্যদিকে স্বাধীনতা আন্দোলনে রাজনৈতিক ব্যক্তিবর্গের অবদান অতুলনীয়। রাজনৈতিক দলের নেতৃত্বে বাংলাদেশ স্বাধীনতা অর্জন করে। মহান মুক্তিযুদ্ধে বুদ্ধিজীবী ও অন্যান্য বাঙালিদের অক্লান্ত পরিশ্রম ও জীবনের বিনিময়ে বাঙালি বিজয়ের দ্বারপ্রান্তে এসে যখন উপস্থিত তখন পাকিস্তানের গভর্নরের সামরিক উপদেষ্টা মেজর জেনারেল রাও ফরমান আলি এক সুদূরপ্রসারী কুপরিকল্পনা গ্রহণ করেন। তিনি এদেশের শ্রেষ্ঠ মানুষদের নিঃশেষ করে বাঙালি জাতিকে মেধাশূন্য করার এক নীলনকশা আঁকেন।",
-      img: "/images/blog-1.jpg",
+        "Prof Dr Sazzad Hossain has been appointed as full-time member of University Grant Commission for second term. Ministry of Education issued a notification on Monday extending his tenure for next four year. Dr Hossain now teaches computer science and engineering at University of Liberal Arts Bangladesh (ULAB). He is an advisor to the USA-based company ‘PeopleNTech’. Technology expert Dr Hossain hails from Chattogram. He was born on December 16 in 1968. He studied at Chittagong University of Engineering and Technology (CUET) and Faujdarhat Cadet College. Dr Hossain obtained his doctorate of philosophy degree and masters in computer science from Portland State University in US prior completing bachelor at Moscow Technical University in Russia.",
+      img: "/images/blog-5.jpg",
+      link: "https://www.daily-sun.com/post/693249",
     },
     {
       id: 2,
-      title:
-        "করোনাভাইরাস মহামারীর সাধারণ ছুটিতে বিশ্ববিদ্যালয় পর্যায়ে অনলাইন ক্লাসের যে চর্চা শুরু হয়েছে তা ধরে রাখার উপর জোর দিয়েছেন বিশ্ববিদ্যালয় মঞ্জুরি কমিশনের (ইউজিসি) সদস্য অধ্যাপক ড. মো. সাজ্জাদ হোসেন।",
-      date: "24, Jan - 2024",
+      title: "STEAM Education to Prepare Our Students for 4IR and Beyond",
+      date: "20, Jul - 2023",
       author: "Admin",
       description:
-        "বৃহস্পতিবার চট্টগ্রামের বেসরকারি ইস্ট ডেল্টা ইউনিভার্সিটি (ইডিইউ) পরিদর্শনে এসে তিনি একথা বলেন। সাজ্জাদ হোসেন বলেন, “অনলাইন ক্লাসের মাধ্যমে প্রযুক্তিগত উৎকর্ষ ও শিক্ষার ধারাবাহিকতা অব্যাহত রাখতে বেসরকারি বিশ্ববিদ্যালয়গুলো অগ্রণী ভূমিকা রেখেছে। সরাসরি ক্লাসের পাশাপাশি অনলাইনের এই চর্চা ধরে রাখতে হবে এবং এ লক্ষ্যে ইউজিসি সর্বাত্মক সহযোগিতা করবে।” অনুষ্ঠানে সভাপতির বক্তব্যে ইডিইউ উপাচার্য মু. সিকান্দার খান বলেন, “মহামারীতে অনলাইন ক্লাসের অনুমতি প্রদান করে যুগোপযোগী ভূমিকা রেখেছে ইউজিসি। এতে বাংলাদেশের শিক্ষা কার্যক্রম স্থবিরতা ও পিছিয়ে পড়া থেকে রক্ষা পেয়েছে।” প্রধান বক্তা ইডিইউ’র প্রতিষ্ঠাতা ভাইস চেয়ারম্যান সাঈদ আল নোমান বলেন, “নতুন বিভাগ অনুমোদনের ক্ষেত্রে মানসম্মত বিশ্ববিদ্যালয়গুলোকে অগ্রাধিকার দেওয়া হলে সারাদেশে শিক্ষার গুণগত মান নিশ্চিত হবে। এক্ষেত্রে নীতিমালা গ্রহণে বেসরকারি বিশ্ববিদ্যালয়গুলোকে মান অনুসারে শ্রেণি বিভক্ত করা যেতে পারে।”",
-      img: "/images/blog-2.jpg",
+        "The way we live, work, and study is changing at a rapid pace because of the fourth industrial revolution. For students to be ready for the potential and difficulties of this new era, STEAM education is crucial. There are a few obvious reasons why Bangladesh’s entire educational strategy should centre on the STEAM education method. 'Vision 2041' and 'SMART Bangladesh' concepts call for a cutting-edge and successful educational strategy like STEAM education. What is STEAM education? STEM, a concept coined by scientific administrators at the National Science Foundation (NSF) of the United States in the 2000s, is where STEAM got its start. STEM refers to a field and curriculum that focus on teaching science, technology, engineering, and math. In order to address societal issues and the demands of shifting employment markets, STEM-focused curricula have been expanded to many nations outside of the United States. Programs have been built in nations like Australia, China, France, South Korea, Taiwan, the United Kingdom, and India. Critics of STEM assert that exposure to the many arts helps people make better decisions and exhibit greater creativity and ingenuity. They contend that what makes one successful is not profound knowledge but rather the application of the arts in real-world settings. As a result, competing frameworks like STEAM have entered the conversation. Additionally, the STEAM education approach emphasizes scientific subjects without ignoring the students' humanistic qualities. In other words, technical expertise and a scientifically oriented way of thinking about problems combine with creativity to provide novel ideas that cut across disciplinary boundaries.",
+      img: "/images/blog-3.jpg",
+      link: "https://www.daily-sun.com/printversion/details/701065",
     },
     {
       id: 3,
-      title: "অদৃশ্য শক্তি পরাভূত করতে প্রয়োজন গবেষণা ও আধুনিক প্রযুক্তি",
+      title:
+        "Dr. Sazzad Hossain emphasized on maintaining the practice of online classes which has started at the university level during the general holidays due to the coronavirus pandemic",
+      date: "24, Jan - 2023",
+      author: "Admin",
+      description:
+        "He said this while visiting the private East Delta University (EDU) in Chittagong on Thursday. Sajjad Hossain said, “Private universities have played a leading role in continuing technological excellence and continuity of education through online classes. Along with live classes, this practice of online should be maintained and UGC will give full support to this end.” In the speech of the President, EDU Vice-Chancellor Mu. Sikandar Khan said, “The UGC has played a timely role by allowing online classes during the pandemic. This has saved Bangladesh's education program from stagnation and backwardness. The main speaker, EDU Founder Vice Chairman Saeed Al Noman said, “If quality universities are given priority in approving new departments, the quality of education will be ensured across the country. In this case private universities can be classified according to standards in adopting policies.”",
+      img: "/images/blog-4.jpg",
+    },
+    {
+      id: 4,
+      title:
+        "A day-long seminar held on Mechatronics & Industry 4.0: Practice-oriented Education and Training for Employment",
       date: "24, Jan - 2024",
       author: "Admin",
       description:
-        "এই বছরটি বঙ্গবন্ধুর জন্মশতবার্ষিকী। তাঁর নেতৃত্বে আমরা বাংলাদেশের স্বাধীনতা অর্জন করেছি। এখানে বিশেষভাবে উল্লেখ্য যে বছরটির শুরু থেকেই আমরা বিশ্বজুড়ে একটি দুর্যোগ মোকাবিলায় আছি। করোনাভাইরাস মহামারিতে বাংলাদেশসহ বিশ্বের ১৮৫টি দেশ পর্যদুস্ত। দেশের এ দুর্যোগ মোকাবিলায় প্রধানমন্ত্রী শেখ হাসিনা নেতৃত্ব দিচ্ছেন। তিনি নিরলসভাবে পরিশ্রম করছেন। আমরা সবাই ঐক্যবদ্ধভাবে কাজ করে যাচ্ছি। একাত্তরে বঙ্গবন্ধু শেখ মুজিবুর রহমানের নেতৃত্বে আমরা যেভাবে স্বাধীনতা অর্জন করেছি, আমি দৃঢ়ভাবে বিশ্বাস করি, এবারও বঙ্গবন্ধুকন্যার নেতৃত্বে আমরা সেভাবে এই বৈশ্বিক মহামারি করোনাভাইরাস মোকাবিলা করবো। আমি সুনিশ্চিত আমরা এর থেকে অচিরেই পরিত্রাণ পেয়ে আরও ভালোভাবে এগিয়ে যাবো। এ প্রসঙ্গে রবীন্দ্রনাথ ঠাকুর এর আরোগ্য কাব্যগ্রন্থের “এ দ্যুলোক মধুময়, মধুময় পৃথিবীর ধূলি” কবিতার একটি লাইন মনে পড়ছে – “দেখেছি নিত্যের জ্যোতি দুর্যোগের মায়ার আড়ালে” করোনাভাইরাসের প্রাদুর্ভাব গত দশকে অর্জিত আমাদের অভাবনীয় অর্থনৈতিক প্রবৃদ্ধিকে দুর্বল করে যাতে না দিতে পারে সে লক্ষ্যে কাজ করছে সরকারের আইসিটি মন্ত্রণালয়ও। উন্নয়নশীল ডিজিটাল বাংলাদেশে এ যেন আরেকটি যুদ্ধ। আমরা জানি এই ডিজিটাল বাংলাদেশের রূপকার বঙ্গবন্ধুর দৌহিত্র সজীব ওয়াজেদ জয়। তার পরিকল্পনায় এদেশ এগিয়ে যাচ্ছে। প্রধানমন্ত্রী শেখ হাসিনা প্রথম থেকেই এদেশকে আধুনিক বাংলাদেশ হিসেবে গড়ে তোলার জন্য একটি ফ্রেমওয়ার্ক দিয়েছেন। যেটি হচ্ছে- ভিশন ২০২১, ২০৩০, ২০৪১ (উন্নত বাংলাদেশ) এবং ২০৭১। ২০৭১ সালে আমরা স্বাধীনতার একশত বছর পালন করবো। আমাদের রয়েছে শতবর্ষব্যাপী ডেল্টা প্ল্যান। এই ফ্রেমওয়ার্ক বাস্তবায়নে আমাদের কাজ করতে হবে। আমরা সবাই একতাবদ্ধও এ ফ্রেমওয়ার্ক বাস্তবায়নে। বর্তমানে দেশে যে দুর্যোগটি ছড়িয়ে পড়েছে তা মোকাবিলায় প্রথম সারিতে রয়েছেন চিকিৎসকরা। আমরা প্রথমেই কৃতজ্ঞতা জানাচ্ছি তাদের প্রতি। সবার আগে এগিয়ে এসেছেন স্বাস্থ্যকর্মীরা। সঙ্গে সঙ্গে পুলিশ বাহিনী, সশস্ত্র বাহিনী, সিটি করপোরেশন, স্বাস্থ্য মন্ত্রণালয়, আইসিটি মন্ত্রণালয়, এবং বিশ্ববিদ্যালয়গুলো এই দুর্যাগ মোকাবিলায় নিরলস চেষ্টা চালিয়ে যাচ্ছেন। তাদের প্রতিও কৃতজ্ঞতা।",
-      img: "/images/blog-3.jpg",
+        "Mechatronics & Industry 4.0: Practice-oriented Education and Training for Employment is a day-long seminar and technology demonstration, jointly organized by the Department of Robotics and Mechatronics Engineering, University of Dhaka; FESTO Didactic SE, Germany; University of Bremen, Germany and Sincos Engineers Limited, Bangladesh. FESTO Didactic is the world-leading provider of equipment and solutions for technical education in the field of STEM. Collaborating with the esteemed faculty members from the University of Bremen, Germany and Sincos Engineers Limited, the day-long seminar has been arranged to provide attendees with an opportunity to get hands-on experience and knowledge about the latest advancements in mechatronics pertaining to the 4th Industrial Revolution. With the inclusion of talks from the distinguished guest speakers and demonstrations organized by Festo Didactic SE, the seminar aims to provide an interactive session from which our attendees can take away valuable advice and even practical knowledge to further augment their skill sets.",
+      img: "/images/blog-6.jpg",
+      link: "https://web3.du.ac.bd/webPost/182/249",
     },
   ];
 
@@ -77,6 +90,15 @@ const NewsDetails = () => {
               <p className="text-sm md:text-base text-gray-500 mt-3 text-justify">
                 {singleNews?.description}
               </p>
+              {singleNews?.link && (
+                <a
+                  href={singleNews?.link}
+                  target="_blank"
+                  className="inline-block mt-3 text-sm md:text-base text-blue-500 text-justify underline"
+                >
+                  Read More
+                </a>
+              )}
             </div>
             <div className="w-full">
               <h1 className="text-2xl md:text-4xl font-bold">Recent News</h1>

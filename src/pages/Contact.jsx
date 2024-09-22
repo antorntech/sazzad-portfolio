@@ -35,20 +35,11 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row justify-center items-center">
               <div className="w-full flex flex-col items-center p-8 gap-5 hover:bg-gray-100 hover:shadow-lg transition-all duration-500">
                 <div className="w-12 h-12 flex justify-center items-center bg-[#18377e] p-12 rounded-full">
-                  <i className="fa-solid fa-phone text-white text-5xl"></i>
-                </div>
-                <h2 className="text-md text-gray-500 text-center">
-                  <span className="font-semibold">Phone:</span> +880 1555 555
-                  555
-                </h2>
-              </div>
-              <div className="w-full flex flex-col items-center p-8 gap-5 hover:bg-gray-100 hover:shadow-lg transition-all duration-500">
-                <div className="w-12 h-12 flex justify-center items-center bg-[#18377e] p-12 rounded-full">
                   <i className="fa-regular fa-envelope text-white text-5xl"></i>
                 </div>
                 <h2 className="text-md text-gray-500 text-center">
                   <span className="font-semibold">Email:</span>{" "}
-                  sazzadhossain@gmail.com
+                  sazzad69@gmail.com
                 </h2>
               </div>
               <div className="w-full flex flex-col items-center p-8 gap-5 hover:bg-gray-100 hover:shadow-lg transition-all duration-500">

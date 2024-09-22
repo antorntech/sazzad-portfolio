@@ -21,6 +21,7 @@ export const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(contactDetails);
+    toast.success("Message sent successfully");
     // fetch("https://api.designerarif.com/api/v1/contact/add", {
     //   method: "POST",
     //   headers: {
@@ -51,7 +52,7 @@ export const ContactForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="w-full flex flex-col md:flex-row items-center gap-5">
           <input
-            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="firstname"
             value={contactDetails.firstname}
@@ -60,7 +61,7 @@ export const ContactForm = () => {
             placeholder="First Name"
           />
           <input
-            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="lastname"
             value={contactDetails.lastname}
@@ -71,7 +72,7 @@ export const ContactForm = () => {
         </div>
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
           <input
-            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="email"
             value={contactDetails.email}
@@ -80,7 +81,7 @@ export const ContactForm = () => {
             placeholder="Email Address"
           />
           <input
-            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="phone"
             value={contactDetails.phone}
@@ -91,7 +92,7 @@ export const ContactForm = () => {
         </div>
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
           <input
-            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="subject"
             value={contactDetails.subject}
@@ -103,7 +104,7 @@ export const ContactForm = () => {
         <div className="w-full mt-5 flex flex-col md:flex-row items-center gap-5">
           <textarea
             rows="5"
-            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-white focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
+            className="w-full mt-3 p-3 rounded-md bg-gray-100 border-b-[1px] border-gray-500 text-black focus:outline-none focus:border-[#18377e] focus:ring-1 focus:ring-[#18377e]"
             type="text"
             name="message"
             value={contactDetails.message}

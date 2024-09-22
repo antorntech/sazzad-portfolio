@@ -32,9 +32,9 @@ const HomeContacts = () => {
                   <i className="fa-solid fa-phone text-white text-2xl"></i>
                 </div>
                 <div className="text-black">
-                  <p>Phone</p>
+                  <p>Office Email</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    +880 1555 555 555
+                    sazzad@piit.us
                   </h2>
                 </div>
               </div>
@@ -43,9 +43,9 @@ const HomeContacts = () => {
                   <i className="fa-regular fa-envelope text-white text-2xl"></i>
                 </div>
                 <div className="text-black">
-                  <p>Email</p>
+                  <p>Personal Email</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    sazzadhossain@gmail.com
+                    sazzad69@gmail.com
                   </h2>
                 </div>
               </div>
@@ -56,7 +56,6 @@ const HomeContacts = () => {
                 <div className="text-black">
                   <p>Address</p>
                   <h2 className="text-md md:text-xl font-semibold">
-                    Dhanmondi 32, Shukrabad <br />
                     Dhaka, Bangladesh
                   </h2>
                 </div>

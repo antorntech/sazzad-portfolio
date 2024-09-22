@@ -55,8 +55,8 @@ const About = () => {
     name: "Professor Dr. Sazzad Hossain",
     designation:
       "Honorable Member of University Grand Commission of Bangladesh",
-    email: "sazzadhossain@example.com",
-    phone: "0123456789",
+    email: " sazzad69@gmail.com",
+    officialEmail: "sazzad@piit.us",
     address: "Dhaka, Bangladesh",
     image: "/images/about-banner.jpg",
     description:
@@ -94,14 +94,14 @@ const About = () => {
                     <p className="text-gray-500">{data.name}</p>
                   </div>
                   <div className="mt-3">
-                    <strong>Email</strong>
+                    <strong>Personal Email</strong>
                     <p className="text-gray-500">{data.email}</p>
                   </div>
                 </div>
                 <div>
                   <div className="mt-3">
-                    <strong>Phone</strong>
-                    <p className="text-gray-500">{data.phone}</p>
+                    <strong>Official Email</strong>
+                    <p className="text-gray-500">{data.officialEmail}</p>
                   </div>
                   <div className="mt-3">
                     <strong>Address</strong>
