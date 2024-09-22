@@ -96,7 +96,7 @@ const HomeSlider = () => {
                 className="w-14 h-14 flex justify-center items-center bg-white rounded-full pulse-animation"
                 onClick={() =>
                   handleVideoClick(
-                    "https://www.youtube.com/embed/edzoKyQPG9g?si=bbe8XLws3ARhFt1R"
+                    "https://www.youtube.com/embed/sQ22pm-xvrE?si=m-ImoTFQDF8uropx"
                   )
                 }
               >
