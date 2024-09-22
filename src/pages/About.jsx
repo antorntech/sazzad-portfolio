@@ -142,27 +142,30 @@ const About = () => {
             </p>
           </header>
           <div className="mt-5 md:mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 gap-5">
               <div className="flex items-start shadow-lg p-5">
                 <span className="text-lg md:text-xl font-semibold">
+                  <strong className="text-2xl pr-1">1.</strong>
                   Ph.D. in Electrical and Computer Engineering, Portland State
                   University, Oregon, USA Dissertation: Classical and Quantum
                   Search Algorithms for Quantum Circuits and Optimization of
-                  Quantum Oracles
-                </span>
-              </div>
-              <div className="flex items-start shadow-lg p-5">
-                <span className="text-lg md:text-xl font-semibold">
-                  Advisor: Professor Dr. Marek A Perkowski + M.Sc. (Engg.) in
-                  Electrical and Computer Engineering, Portland State
-                  University, Oregon, USA. Advisor: Professor Dr. Marek A
+                  Quantum Oracles <br /> Advisor: Professor Dr. Marek A
                   Perkowski
                 </span>
               </div>
               <div className="flex items-start shadow-lg p-5">
                 <span className="text-lg md:text-xl font-semibold">
+                  <strong className="text-2xl pr-1">2.</strong>
+                  M.Sc. (Engg.) in Electrical and Computer Engineering, Portland
+                  State University, Oregon, USA. Advisor: Professor Dr. Marek A
+                  Perkowski
+                </span>
+              </div>
+              <div className="flex items-start shadow-lg p-5">
+                <span className="text-lg md:text-xl font-semibold">
+                  <strong className="text-2xl pr-1">3.</strong>
                   B.Sc. (Engg.). in Electrical System Network Engineering Moscow
-                  Technical University, Moscow, Russia{" "}
+                  Technical University, Moscow, Russia
                 </span>
               </div>
             </div>
