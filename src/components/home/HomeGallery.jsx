@@ -5,7 +5,7 @@ const HomeGallery = () => {
   const gallerys = [
     {
       id: 1,
-      thumbnail: "/images/gallery-1.jpg",
+      thumbnail: "/images/blog-1.jpg",
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const HomeGallery = () => {
     },
     {
       id: 3,
-      thumbnail: "/images/gallery-3.jpg",
+      thumbnail: "/images/blog-3.jpg",
     },
     {
       id: 4,
@@ -21,11 +21,11 @@ const HomeGallery = () => {
     },
     {
       id: 5,
-      thumbnail: "/images/gallery-5.jpg",
+      thumbnail: "/images/blog-2.jpg",
     },
     {
       id: 6,
-      thumbnail: "/images/gallery-6.jpg",
+      thumbnail: "/images/blog-4.jpg",
     },
   ];
 
@@ -44,11 +44,7 @@ const HomeGallery = () => {
 
   return (
     <>
-      <section
-        className="md:h-[100vh]"
-        data-aos="fade-in"
-        data-aos-duration="3000"
-      >
+      <section className="md:h-[100vh]">
         <div class="py-5 px-4 md:px-0 bg-no-repeat bg-cover bg-[url('/images/features-bg.jpg')] bg-center h-full w-full relative overflow-hidden z-[1] before:absolute before:inset-0 before:bg-[#18377e]/70 before:-z-[1]">
           <div className="max-w-screen-xl h-full mx-auto flex flex-row md:flex-col justify-center gap-8 ">
             <div className="grid grid-cols-2 md:grid-cols-3">
