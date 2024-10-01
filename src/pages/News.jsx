@@ -1,9 +1,5 @@
 import React from "react";
 import PageHeader from "../components/pageheader/PageHeader";
-import news1 from "../assets/imgs/evenet-sched-1.jpg";
-import news2 from "../assets/imgs/evenet-sched-2.jpg";
-import news3 from "../assets/imgs/evenet-sched-3.jpg";
-import news4 from "../assets/imgs/evenet-sched-4.jpg";
 import { Link } from "react-router-dom";
 
 const News = () => {

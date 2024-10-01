@@ -1,7 +1,4 @@
 import React from "react";
-import event1 from "../../assets/imgs/evenet-sched-1.jpg";
-import event2 from "../../assets/imgs/evenet-sched-2.jpg";
-import event3 from "../../assets/imgs/evenet-sched-3.jpg";
 import { Link } from "react-router-dom";
 
 const HomeNews = () => {

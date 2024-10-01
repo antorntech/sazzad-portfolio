@@ -1,10 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PageHeader from "../components/pageheader/PageHeader";
 import { Link, useLocation, useParams } from "react-router-dom";
-import blog1 from "../assets/imgs/evenet-sched-1.jpg";
-import blog2 from "../assets/imgs/evenet-sched-2.jpg";
-import blog3 from "../assets/imgs/evenet-sched-3.jpg";
-import blog4 from "../assets/imgs/evenet-sched-4.jpg";
 
 const BlogDetails = () => {
   const location = useLocation();

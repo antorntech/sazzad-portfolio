@@ -1,10 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PageHeader from "../components/pageheader/PageHeader";
 import { Link, useLocation, useParams } from "react-router-dom";
-import event1 from "../assets/imgs/evenet-sched-1.jpg";
-import event2 from "../assets/imgs/evenet-sched-2.jpg";
-import event3 from "../assets/imgs/evenet-sched-3.jpg";
-import event4 from "../assets/imgs/evenet-sched-4.jpg";
 
 const EventDetails = () => {
   const location = useLocation();

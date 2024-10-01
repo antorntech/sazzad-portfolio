@@ -1,7 +1,4 @@
 import React from "react";
-import aboutImg from "../../assets/imgs/about-img.jpg";
-import aboutImg3 from "../../assets/imgs/about-img-3.jpg";
-import featureIcon1 from "../../assets/imgs/feature-1.png";
 import aboutVector1 from "../../assets/imgs/about-vector-1.png";
 import aboutVector2 from "../../assets/imgs/about-vector-2.png";
 import { Link } from "react-router-dom";
