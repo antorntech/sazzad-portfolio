@@ -5,7 +5,7 @@ const HomeGallery = () => {
   const gallerys = [
     {
       id: 1,
-      thumbnail: "/images/blog-1.jpg",
+      thumbnail: "/images/modern-blog.jpg",
     },
     {
       id: 2,
